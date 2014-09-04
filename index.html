@@ -9,7 +9,8 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<header class="navbar navbar-default">
+	<!-- header -->
+	<header class="navbar navbar-inverse navbar-static-top">
 		<nav class="container">
 			<div class="navbar-header"><a href="" class="navbar-brand">しりとらず</a></div>
 			<ul class="nav navbar-nav">
@@ -21,23 +22,28 @@
 		</nav>
 	</header>
 
+	<!-- content -->
 	<div class="container text-center">
+		<!-- word -->
 		<h2>今のワード</h2>
-		<div id="screen"><span style="font-size : 8em;">ヤンキー弁当</span></div>
+		<div id="screen"><span style="font-size : 2em;">やんきーべんとう</span><br>
+			<span style="font-size : 8em;">ヤンキー弁当</span>
+		</div>
 		<div id="affiliate">「ヤンキー弁当」でAmazon検索すると．．．<img src="yankees-bento.jpg" alt=""></div>
 
-		<form class="form-inline has-error" style="margin : 20px">
+		<!-- search -->
+		<form class="form-horizontal" style="margin : 20px">
 			<div class="form-group">
 				<input type="text" class="form-control" placeholder="ワードを入れてください">
 			</div>
 			<div class="form-group">
 				<input type="submit" value="投稿" class="btn btn-primary">
 			</div>
-			<span class="help-block">5分以内に2回連続して投稿することは出来ません</span>
 		</form>
-		
+		<span class="help-block">5分以内に2回連続して投稿することは出来ません</span>
 
-		<table class="table text-left">
+		<!-- table -->
+		<table class="table table-hover text-left">
 			<thead>
 				<tr>
 					<th>No.</th><th>ワード</th><th></th><th>投稿日</th>
@@ -69,7 +75,8 @@
 		<a class="help-block">もっとみる</a>
 	</div>
 
-	<footer class="navbar navbar-default">
+	<!-- footer -->
+	<footer class="navbar-inverse navbar-static-top">
 		<div class="text-center">
 			Copyright ...
 		</div>
