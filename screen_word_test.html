@@ -16,9 +16,19 @@
 <body>
 	<div class="container text-center">
 		<h2>今のワード</h2>
-		<div id="screen">
-			<span id="screen_word" style="font-size: 8em;">名探偵コナン</span><br>
-			<span id="screen_hiragana" style="font-size: 2em;">めいたんていこな</span><span class="text-danger" style="font-size: 2.5em;">ん</span>
+		<div id="carousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="active item">
+					<span id="screen_word" style="font-size: 8em;">るろうに剣心</span><br>
+					<span id="screen_hiragana" style="font-size: 2em;">るろうにけんし</span><span class="text-danger" style="font-size: 2.5em;">ん</span>
+				</div>
+				<div class="item">
+					<span id="screen_word" style="font-size: 8em;">名探偵コナン</span><br>
+					<span id="screen_hiragana" style="font-size: 2em;">めいたんていこな</span><span class="text-danger" style="font-size: 2.5em;">ん</span>
+				</div>
+			</div>
+			<a class="carousel-control left" href="#carousel" data-slide="prev"></a>
+			<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
 		</div>
 
 		<form class="form-inline" style="margin : 20px">
